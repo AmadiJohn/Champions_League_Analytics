@@ -86,9 +86,9 @@ Results
 ![Most_Win_Clubs](Images/01_most_win_clubs.png)
 
 Insights
-- Real Madrid dominates the competition with 15 Champions League titles, they are far ahead of every other club more than double some of the teams on the list.
-- There’s a tight race for second place.AC Milan and Bayern Munich are tied at 7 titles each, showing strong but comparable European success.
-- The gap narrows toward the bottom.Liverpool FC (6 titles) and FC Barcelona (5 titles) are close in performance, with only a 1 title difference separating them.
+- Real Madrid stands out as the most successful club with 15 UEFA Champions League titles, holding a significant lead over all other teams. Their total is more than double that of many competitors, highlighting their long-term dominance.
+- AC Milan and Bayern Munich are tied with 7 titles each, reflecting a closely contested race for second place and a similar level of European success.
+- Liverpool FC, with 6 titles, and FC Barcelona, with 5, are separated by just one title, showing how tight the competition is among clubs in this tier.
 
 2. Top Five Nations by Number of Titles
 ``` sql
@@ -123,9 +123,9 @@ Results
 ![Country_by_Title](Images/02_country_by_title.png)
 
 Insights
-- Spain dominates completely with 20 titles, 33% more than second-place England (15), reflecting Real Madrid and Barcelona's sustained European dominance.
-- Western Europe holds a monopoly. All top 5 nations are from Western Europe, with no Eastern European country breaking through.
-- West Germany (5) vs Netherlands (6) are tightly matched despite West Germany ceasing to exist as a football entity in 1990, showing how prolific their clubs were in a shorter window.
+- Spain leads by a wide margin with 20 titles, exceeding second-place England (15) by 33%. This dominance is largely driven by the consistent success of clubs like Real Madrid and FC Barcelona in European competitions.
+- Western Europe clearly dominates the landscape, as all top five countries come from this region, with no representation from Eastern Europe among the leading nations.
+- West Germany (5 titles) and Netherlands (6 titles) show a close comparison, despite West Germany no longer existing after 1990. This highlights how successful their clubs were within a relatively shorter period.
 
 3. Average Attendance Over Time
 ``` sql
@@ -159,9 +159,9 @@ Results
 ![Average_Attendance_by_Season](Images/03_average_attendance_by_season.png)
 
 Insights
-- The 1950s–60s saw peak attendances, regularly exceeding 100,000 reflecting the era of massive open stadiums with few safety restrictions.
-- A dramatic crash around 2020–2021 attendance dropped near zero, clearly attributable to the COVID-19 pandemic forcing behind closed doors matches.
-- Post 2021 recovery is strong but has not returned to pre-2000 levels, suggesting modern stadium capacity limits and ticketing structures cap attendance around 70,000–90,000.
+- The 1950s and 1960s recorded the highest match attendances, often surpassing 100,000 spectators, largely due to the presence of large open stadiums with minimal safety regulations.
+- There is a sharp decline around 2020–2021, where attendance fell to nearly zero, mainly as a result of the COVID-19 pandemic, which led to games being played behind closed doors.
+- Following 2021, attendance levels rebounded significantly but have not reached the highs seen before 2000. This indicates that modern stadium capacity limits and ticketing systems typically keep attendance within the 70,000–90,000 range.
 
 4. Most Common Scoreline
 ``` sql
@@ -196,9 +196,9 @@ Results
 ![Common_Scoreline](Images/04_common_scorelines.png)
 
 Insights
-- 1-0 is by far the most frequent final scoreline (18 times) nearly double the next most common, revealing how often Champions League finals are cagey, low-scoring affairs.
-- 2-1 and 2-0 are equally common (9 times each), together with 1-0 accounting for the majority of finals outcomes, tight margins define these matches.
-- Penalty shootout results (marked with *) like 1-1* and 0-0* appear 6 and 4 times respectively, showing that roughly 15% plus of finals are decided on penalties.
+- A 1–0 scoreline is the most common outcome in finals, occurring 18 times—almost twice as often as the next most frequent result. This highlights how UEFA Champions League Final games are typically tight and low-scoring.
+- Scorelines of 2–1 and 2–0 each appear 9 times, and when combined with 1–0, they make up the majority of final results, reinforcing the trend of closely contested matches.
+- Penalty shootout outcomes, such as 1–1* and 0–0*, occur 6 and 4 times respectively, indicating that over 15% of finals are ultimately decided through penalties.
 
 5. Average Goals per Final
 ``` sql
@@ -226,9 +226,9 @@ Results
 ![Average_Goals](Images/05_average_goals_in_finals.png)
 
 Insights
-- 2.66 average goals per final is relatively low, confirming that finals tend to be defensively disciplined encounters.
-- This average is below the typical league match average of approximately 2.7–3.0 goals, reinforcing the finals are tight narrative.
-- Combined with the scoreline data, it suggests most finals are decided by a single goal margin, making them closely contested.
+- An average of 2.66 goals per final is relatively low, indicating that UEFA Champions League Final matches are usually tactically cautious and defensively organized.
+- This figure falls slightly below the typical league match average of around 2.7–3.0 goals, further supporting the idea that finals are generally tight and low-scoring.
+- When considered alongside the scoreline patterns, it shows that most finals are decided by a narrow one-goal margin, emphasizing how closely contested these games tend to be.
 
 6. Attendance Trend Over Time
 ``` sql
@@ -250,9 +250,7 @@ It is the same as average attendance chart
 
 Insights
 - Attendance hit its all-time high of 120,000–127,000, driven by unrestricted stadium capacities. This was the ceiling the trend never returned to.
-
 - A consistent downward drift from 90,000 plus to approximately 50,000–70,000, driven by stricter safety regulations and the shift to all-seater stadiums.
-
 - Attendance stabilized around 60,000–90,000, collapsed near zero in 2021 due to COVID, then recovered, settling into a permanently lower modern ceiling.
 
 7. Country that Hosted the Most Finals
@@ -287,9 +285,9 @@ Results
 ![Host_Countries](Images/07_host_countries.png)
 
 Insights
-- England and Italy lead hosting with 9 finals, each reflecting their early dominance in European football infrastructure and prestige.
-- Spain (8) follows closely, with the Santiago Bernabéu and other venues making it a favoured destination for UEFA finals.
-- Smaller nations like Belgium (5), Austria (4), and Portugal (4) have hosted surprisingly frequently, showing UEFA's commitment to spreading the tournament across Europe.
+- England and Italy jointly top the list of host nations with 9 finals each, reflecting their early influence and strong football infrastructure in European competitions.
+- Spain follows closely with 8 finals, with iconic venues like the Santiago Bernabéu Stadium contributing to its popularity as a host location for UEFA events.
+- Nations such as Belgium (5), Austria (4), and Portugal (4) have also hosted multiple times, highlighting UEFA’s effort to distribute finals across different parts of Europe.
 
 8. Stadium that Hosted the Most Finals
 ``` sql
@@ -325,9 +323,9 @@ Results
 ![Host_Stadiums](Images/08_host_stadiums.png)
 
 Insights
-- Wembley Stadium leads decisively with 8 finals hosted, almost double the second-place Heysel Stadium (5), cementing its status as European football's most iconic venue.
-- Heysel Stadium's 5 finals is notable given, it was the site of the 1985 disaster after which it was retired. All its finals were concentrated in a specific historical era.
-- Four stadiums are tied at 4 finals (San Siro, Santiago Bernabéu, Stadio Olimpico, Olympic Stadium), showing a competitive cluster of world-class venues.
+- Wembley Stadium stands clearly ahead with 8 finals hosted, nearly twice as many as Heysel Stadium (5), reinforcing its reputation as one of the most iconic venues in European football.
+- Heysel Stadium hosting 5 finals is particularly significant given its association with the Heysel Stadium disaster, after which it was no longer used for such events. Its finals were largely concentrated within a specific historical period.
+- A group of four stadiums San Siro, Santiago Bernabéu Stadium, Stadio Olimpico, and Olympic Stadium are each tied with 4 finals, highlighting a strong cluster of elite venues.
 
 9. Trend of Total Goals Over Time
 ``` sql
@@ -361,9 +359,9 @@ Results
 ![Goals_Over_Time](Images/09_goals_over_time.png)
 
 Insights
-- The late 1950s early 1960s were the highest-scoring era with some finals producing 7–10 goals, a stark contrast to the modern era.
-- A clear downward trend from the 1960s onward reflects the evolution of tactical football, with defensive organization becoming increasingly sophisticated.
-- Modern finals (post-2000) rarely exceed 5 goals, clustering mostly between 2–4 confirming that elite defensive coaching has fundamentally changed the nature of finals.
+- The late 1950s and early 1960s saw the most goal-filled finals, with some matches featuring 7–10 goals, sharply contrasting with the lower-scoring modern era.
+- From the 1960s onward, there is a clear decline in goals per final, reflecting the rise of more sophisticated defensive tactics and structured gameplay.
+- Since 2000, finals rarely exceed 5 goals, with most ending between 2–4 goals, highlighting how top-level defensive coaching has reshaped the character of these matches.
 
 10. Club with the Most Runner-Up Finishes
 ``` sql
@@ -400,9 +398,9 @@ Results
 ![Runner_Up_Teams](Images/10_runner_up_teams.png)
 
 Insights
-- Juventus holds the unfortunate record of 7 runner-up, finishes the most of any club, highlighting a painful pattern of near-misses despite their domestic dominance.
-- Benfica's 5 runner-up finishes with 0 wins in those appearances is particularly striking, they are arguably the most "unlucky" club in European football history.
-- Real Madrid and Bayern Munich appear as runner-ups only 3 times each, which compared to their title tallies shows their remarkable ability to convert final appearances into victories.
+- Juventus holds the unenviable record of 7 runner-up finishes, the most of any club, underscoring a recurring pattern of near-misses despite strong domestic success.
+- Benfica stands out with 5 runner-up finishes without a single win in those finals, making them arguably one of the unluckiest clubs in European football history.
+- In contrast, Real Madrid and Bayern Munich have each been runners-up only 3 times, demonstrating their exceptional ability to turn final appearances into victories relative to their impressive title counts.
 
 # Power BI Dashboard
 An interactive dashboard was built using the warehouse and analytics layer to visualize key insights.
@@ -427,11 +425,11 @@ An interactive dashboard was built using the warehouse and analytics layer to vi
 ![Images/UEFA_CHAMPIONS_LEAGUE_FINAL](Images/UEFA_CHAMPIONS_LEAGUE_FINAL.PNG)
 
 # Key Insights
-- Spain leads all countries with 20 titles, while Juventus ironically holds the record for most runner-up finishes (7) without a proportional title return, highlighting the gap between consistent contenders and true winners.
-- Finals are tight, low-scoring affairs
-with an average of 2.66 goals per final and 1-0 being the most common scoreline (18 times), Champions League finals are consistently defensive battles. Over 15% are decided by penalties, reinforcing how closely matched the finalists tend to be.
-- England dominates hosting. England and Italy lead with 9 finals hosted each, and Wembley alone accounts for 8 finals nearly double any other single stadium. This reflects England's long-standing status as European football's premier infrastructure hub.
-- Crowds have permanently shrunk. Attendance peaked at 127,000 in the late 1950s and has never recovered, settling into a modern plateau of 60,000–90,000. The COVID-induced crash to near zero in 2021 was a temporary shock, but the structural downward trend has been in place since the 1960s. 
+- Spain stands out as the most successful nation with 20 titles, while Juventus holds the highest number of runner-up finishes (7) without a comparable number of wins. This highlights the distinction between consistently reaching finals and actually securing titles.
+- Champions League finals are typically closely contested and low-scoring, with an average of 2.66 goals per match. The 1–0 scoreline appears most frequently (18 times), and over 15% of finals are decided by penalties, emphasizing how evenly matched the competing teams are.
+- Hosting of finals is concentrated in a few countries, with England and Italy leading at 9 finals each. Wembley Stadium alone has hosted 8 finals, nearly twice as many as any other venue, underscoring its importance as a premier football venue.
+- Attendance has declined significantly from its peak of 127,000 in the late 1950s and has since stabilized between 60,000 and 90,000 in modern times. Although the sharp drop in 2021 was due to COVID-19, the overall long-term decline has been evident since the 1960s.
+
 
 # Project Highlights
 - End-to-end data analytics workflow
