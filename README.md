@@ -16,11 +16,11 @@ The project answers key analytical questions such as:
 - What are the most common match outcomes?
 - Which locations host finals most frequently? 
 
-# 🛠️ Tools & Technologies
+# Tools & Technologies
 - **PostgreSQL:** Data cleaning, transformation, and modeling
 - **SQL:** Analytical queries and view creation
 - **Power BI:** Interactive dashboard
-- **AI Tools:** Static visuals for portfolio presentation 
+- **Python:** (Pandas, Matplotlib, Seaborn) Data Visualization 
 
 # Data Architecture
 This project follows a 3-layer data architecture:
@@ -227,7 +227,7 @@ Results
 
 Insights
 - 2.66 average goals per final is relatively low, confirming that finals tend to be defensively disciplined encounters.
-- This average is below the typical league match average of approximately 2.7–3.0 goals, reinforcing the "finals are tight" narrative.
+- This average is below the typical league match average of approximately 2.7–3.0 goals, reinforcing the finals are tight narrative.
 - Combined with the scoreline data, it suggests most finals are decided by a single goal margin, making them closely contested.
 
 6. Attendance Trend Over Time
